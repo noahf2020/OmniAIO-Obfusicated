@@ -10,7 +10,8 @@ const fetch = require('node-fetch');
 const delay = require('delay');
 var cors = require('cors');
 const app1 = express(),
-      bodyParser = require("body-parser"),
+      bodyParser = require("body-parser")
+,
       port = 3080;
 const resources = require("./script/libs/resources.js");
 const foots = require("./script/footsites.js");
